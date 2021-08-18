@@ -77,9 +77,19 @@ console.log(spencer.toString());
         + The `drive` method should return a string "I ran out of fuel at x miles!" x being `odometer`.
 */
 
-function Car() {
-  
+function Car(model,milesPerGallon) {
+  this.tank = 0;
+  this.odometer = 0;
+  this.milesPerGallon=milesPerGallon;
+  this.model =model;
 }
+
+
+Car.prototype.fill = function(gallons){
+
+}
+
+
 
 
 /*
