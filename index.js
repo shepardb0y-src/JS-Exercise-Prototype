@@ -46,7 +46,7 @@ function Person(name, age) {
 }
 
 Person.prototype.eat = function(edible){
-  if (this.stomach< 10){
+  if (this.stomach.length < 10){
     this.stomach.push(edible);
   }
 }
@@ -58,8 +58,10 @@ this.stomach=[];
 Person.prototype.toString = function(){
   return ` ${this.name}, ${this.age}`
 }
-const cam= new Person('Cam,29');
-
+const cam= new Person('Cam',29);
+const spencer= new Person('Spencer',29);
+console.log(cam.toString());
+console.log(spencer.toString());
 
 /*
   TASK 2
