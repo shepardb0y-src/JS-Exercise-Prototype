@@ -107,10 +107,10 @@ function Baby() {
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. indow binding is when the this keyowrd window binds to the global object
+  2. implicibinding is when the this keyord iis binded to the left of the doty of an object
+  3. new binding bind this to the constructor fucntion
+  4. explicit biding is manually attaching the this keyord of another object to something else
 */
 
 
